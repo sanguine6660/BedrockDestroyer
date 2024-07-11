@@ -1,0 +1,7 @@
+name: BedrockDestroyer
+main: com.github.sanguine6660.bedrock.BedrockDestroyerPlugin
+author: sanguine6660
+website: https://github.com/sanguine6660
+api-version: 1.19
+version: ${version}
+load: POSTWORLD

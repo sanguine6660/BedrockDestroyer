@@ -1,0 +1,17 @@
+[versions]
+
+# Gradle Plugins
+shadow = "8.1.1"
+licenser = "0.6.1"
+
+# Bukkit
+bukkit = "1.19.2-R0.1-SNAPSHOT"
+
+[plugins]
+# Gradle Plugins
+shadow = { id = "com.github.johnrengelman.shadow", version.ref = "shadow" }
+licenser = { id = "org.cadixdev.licenser", version.ref = "licenser" }
+
+[libraries]
+# Bukkit
+bukkit = { module = "io.papermc.paper:paper-api", version.ref = "bukkit" }
